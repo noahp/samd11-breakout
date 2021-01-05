@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name DebugEdge)(type Legacy)(uri /home/noah/dev/github/samd11-breakout/thirdparty/DebugEdge/Connector_DebugEdge.lib)(options "")(descr ""))
+)
