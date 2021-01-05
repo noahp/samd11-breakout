@@ -1,4 +1,4 @@
-FROM setsoft/kicad_auto:10.4-5.1.6
+FROM setsoft/kicad_auto:10.4-5.1.6@sha256:2c2f934c7f835a72133029de0e42ad3da2e28e6839fb05804b89d8d291410db9
 
 # get user id from build arg, so we can have read/write access to directories
 # mounted inside the container. only the UID is necessary, UNAME just for
