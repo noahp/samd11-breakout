@@ -1,0 +1,3 @@
+[submodule "thirdparty/DebugEdge"]
+	path = thirdparty/DebugEdge
+	url = ../../debug-edge/DebugEdge.git
