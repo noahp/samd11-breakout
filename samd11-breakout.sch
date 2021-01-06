@@ -340,7 +340,7 @@ U 1 1 5FF3D261
 P 2800 2750
 F 0 "J1" H 2907 4317 50  0000 C CNN
 F 1 "USB_C_Receptacle" H 2907 4226 50  0000 C CNN
-F 2 "project:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 2950 2750 50  0001 C CNN
+F 2 "project:USB_C_Receptacle_GCT_USB4085" H 2950 2750 50  0001 C CNN
 F 3 "http://www.usb.org/developers/docs/usb_31_033017.zip" H 2950 2750 50  0001 C CNN
 	1    2800 2750
 	1    0    0    -1  
@@ -357,13 +357,13 @@ F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 5200 3800 50  00
 	1    0    0    -1  
 $EndComp
 Text Label 7800 3700 0    50   ~ 0
-USB_DM
+USB_D-
 Text Label 7800 3800 0    50   ~ 0
-USB_DP
+USB_D+
 Text Label 5800 2350 0    50   ~ 0
-USB_DM
+USB_D-
 Text Label 5800 2450 0    50   ~ 0
-USB_DP
+USB_D+
 Wire Wire Line
 	3400 2450 3600 2450
 Wire Wire Line
@@ -597,37 +597,37 @@ Text Label 7800 3500 0    50   ~ 0
 PA22
 Text Label 7800 3600 0    50   ~ 0
 PA23
-Text Label 8900 4800 2    50   ~ 0
-PA02
-Text Label 8900 4900 2    50   ~ 0
-PA03
-Text Label 8900 5000 2    50   ~ 0
-PA04
-Text Label 8900 5100 2    50   ~ 0
-PA05
-Text Label 8900 5200 2    50   ~ 0
-PA06
 Text Label 8900 5300 2    50   ~ 0
+PA02
+Text Label 8900 5200 2    50   ~ 0
+PA03
+Text Label 8900 5100 2    50   ~ 0
+PA04
+Text Label 8900 5000 2    50   ~ 0
+PA05
+Text Label 8900 4900 2    50   ~ 0
+PA06
+Text Label 8900 4800 2    50   ~ 0
 PA07
-Text Label 8900 5400 2    50   ~ 0
-PA08
-Text Label 8900 5500 2    50   ~ 0
-PA09
 Text Label 10000 4800 0    50   ~ 0
-PA10
+PA08
 Text Label 10000 4900 0    50   ~ 0
-PA11
+PA09
 Text Label 10000 5000 0    50   ~ 0
-PA14
+PA10
 Text Label 10000 5100 0    50   ~ 0
-PA15
+PA11
 Text Label 10000 5200 0    50   ~ 0
-PA16
+PA14
 Text Label 10000 5300 0    50   ~ 0
-PA17
+PA15
 Text Label 10000 5400 0    50   ~ 0
-PA22
+PA16
 Text Label 10000 5500 0    50   ~ 0
+PA17
+Text Label 8900 5500 2    50   ~ 0
+PA22
+Text Label 8900 5400 2    50   ~ 0
 PA23
 $Comp
 L power:GND #PWR015
