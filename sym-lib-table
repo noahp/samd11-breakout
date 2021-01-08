@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name DebugEdge)(type Legacy)(uri /home/noah/dev/github/samd11-breakout/thirdparty/DebugEdge/Connector_DebugEdge.lib)(options "")(descr ""))
+  (lib (name DebugEdge)(type Legacy)(uri ${KIPRJMOD}/thirdparty/DebugEdge/Connector_DebugEdge.lib)(options "")(descr ""))
+  (lib (name USB4105-GF-A)(type Legacy)(uri ${KIPRJMOD}/USB4105-GF-A.lib)(options "")(descr ""))
 )
