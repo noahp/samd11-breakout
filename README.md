@@ -1,8 +1,10 @@
 # samd11 breakout
 
+Little breakout for some spare samd11's.
+
 Trying out https://debug-edge.io/ .
 
-![3d render](samd11-breakout_3d.png)
+![3d render](samd11-breakout_3d_afterdark.png)
 
 ## partlist
 
