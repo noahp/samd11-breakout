@@ -11,3 +11,7 @@ Trying out https://debug-edge.io/ .
 - arm debug cable : https://www.digikey.com/short/4cw7nq
 - TVS diode : https://www.digikey.com/en/products/detail/stmicroelectronics/USBLC6-2SC6/1040559
 - USB VSENSE diode : https://www.digikey.com/en/products/detail/on-semiconductor/BAT54XV2T1G/918321
+
+Octopart bom with bonus arm connector and flux:
+
+- https://octopart.com/bom-tool/GsivXDSs
