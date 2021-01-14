@@ -17,9 +17,10 @@ DOCKER_IMAGE_NAME=${DOCKER_IMAGE_NAME:-$(basename -s .git "$(git remote --verbos
 # build the docker image
 DOCKER_BUILDKIT=1 docker build -t "$DOCKER_IMAGE_NAME" --build-arg "UID=$(id -u)" -f Dockerfile .
 
-# run the hw test commands
+# run the hw + swtest commands
 docker run --rm -v "$(pwd)":/mnt/workspace -t "$DOCKER_IMAGE_NAME" bash -c "
-    cd hw && kiplot --skip-pre run_erc,run_drc -d kiplot-output print_sch interactive_bom print_front print_bottom"
+    (cd hw && kiplot --skip-pre run_erc,run_drc -d kiplot-output print_sch interactive_bom print_front print_bottom) &&
+    (cd sw && make -C samd11-breakout.atzip/gcc)"
 
 # TODO bom generation doesn't work :/
 # kiplot -s bom_html bom_csv

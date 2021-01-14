@@ -4,6 +4,8 @@ Little breakout for some spare samd11's.
 
 Trying out https://debug-edge.io/ .
 
+[Schematic PDF](hw/samd11-breakout.pdf)
+
 ![3d render](hw/samd11-breakout_3d_afterdark.png)
 
 ## partlist
@@ -17,3 +19,36 @@ Trying out https://debug-edge.io/ .
 Octopart bom with bonus arm connector and flux:
 
 - https://octopart.com/bom-tool/GsivXDSs
+
+## project directory structure
+
+```bash
+.
+├── Dockerfile  # tests run inside this
+├── hw  # hardware design files
+│   ├── fp-lib-table
+│   ├── GCT_USB4105-GF-A.kicad_mod  # USB connector footprint
+│   ├── samd11-breakout_3d_afterdark.png  # render
+│   ├── samd11-breakout_3d.png  # render
+│   ├── samd11-breakout-cache.lib
+│   ├── samd11-breakout-ibom.html  # saved copy of interactive BOM
+│   ├── samd11-breakout.kibot.yaml  # kibot config file
+│   ├── samd11-breakout.kicad_pcb
+│   ├── samd11-breakout.pdf  # schematic PDF
+│   ├── samd11-breakout.pro  # kicad project
+│   ├── samd11-breakout.sch
+│   ├── sym-lib-table
+│   ├── thirdparty/  # some thirdpart libraries used for the hardware
+│   ├── USB4105-GF-A.lib  # USB connector kicad lib
+│   └── USB4105-GF-A.step  # USB connector 3d model
+├── README.md
+├── sw  # software
+│   ├── samd11-breakout.atstart  # project file for https://start.atmel.com/
+│   └── samd11-breakout.atzip   # unpacked example system downloaded from above
+└── test.sh  # test script; builds docker image and runs tests in the container
+```
+
+## software
+
+At the moment I'm just using the preset application with USB CDC, downloaded and
+unpacked into the directory described above.
