@@ -1,3 +1,7 @@
+[![GitHub](https://img.shields.io/badge/GitHub-noahp%2Fsamd11--breakout-8da0cb?style=for-the-badge&logo=github)](https://github.com/noahp/samd11-breakout)
+[![GitHub Workflow
+Status](https://img.shields.io/github/workflow/status/noahp/samd11-breakout/main-ci?style=for-the-badge)](https://github.com/noahp/samd11-breakout/actions)
+
 # samd11 breakout
 
 Little breakout for some spare samd11's.
