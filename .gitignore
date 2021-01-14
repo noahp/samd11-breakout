@@ -29,4 +29,4 @@ fp-info-cache
 *.csv
 
 # Kiplot output
-kiplot-output
+hw/kiplot-output
